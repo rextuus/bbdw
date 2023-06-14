@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Wow{% endblock %}
+
+{% block body %}
+    <div class="image-row">
+        {% for imageUrl in rectangleImageUrls %}
+            <div class="rectangle-image">
+                <img src="{{ imageUrl }}" alt="Rectangle Image">
+            </div>
+        {% endfor %}
+    </div>
+
+    <div class="button-matrix">
+        {% for button in buttons %}
+            <div class="button">
+                <img src="{{ button.imageUrl }}" alt="{{ button.alt }}">
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}

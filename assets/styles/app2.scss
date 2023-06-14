@@ -1,0 +1,132 @@
+$primary-color: #000000;
+$secondary-color: #6c757d;
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: $primary-color;
+}
+
+.question {
+    margin-bottom: 40px;
+    background-color: #afb1b2;
+    padding: 10px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: black;
+}
+
+.gap {
+    font-size: 30px;
+    color: $primary-color;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+button:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+button.correct {
+    background-color: green;
+}
+
+button.incorrect {
+    background-color: red;
+}
+
+button.disabled {
+    background-color: $secondary-color;
+    cursor: not-allowed;
+}
+
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    position: relative; /* Added position relative for proper positioning */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: $primary-color;
+}
+
+.question {
+    margin-bottom: 40px;
+}
+
+.gap {
+    font-size: 30px;
+    color: $primary-color;
+}
+
+button {
+    display: block;
+    margin: 15px auto;
+    padding: 20px 40px;
+    font-size: 24px;
+    background-color: $primary-color;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+        background-color: darken($primary-color, 10%);
+    }
+}
+
+button:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+button.correct {
+    background-color: green;
+}
+
+button.incorrect {
+    background-color: red;
+}
+
+button.disabled {
+    background-color: $secondary-color;
+    cursor: not-allowed;
+}
+
+.page-number {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 16px;
+    color: $secondary-color;
+}
+

@@ -1,0 +1,15 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Verloren{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1>Leider nein leider gar nicht</h1>
+        <div class="question">
+            <p class="gap">{{text}}</p>
+        </div>
+        <p>Die korrekte Antwort lautet:</p>
+        <h1>{{ correctAnswerText }}</h1>
+        <a class="btn btn-primary btn-lg btn-cool-2" href="{{ path('app_quiz_start') }}">Nochmal</a>
+    </div>
+{% endblock %}

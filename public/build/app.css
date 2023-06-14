@@ -1,0 +1,111 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[1]!./node_modules/resolve-url-loader/index.js??ruleSet[1].rules[4].oneOf[1].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].oneOf[1].use[3]!./assets/styles/app.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  position: relative; /* Added position relative for proper positioning */
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.question {
+  margin-bottom: 40px;
+  background-color: #afb1b2;
+  padding: 10px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+}
+
+.gap {
+  font-size: 30px;
+  color: #000000;
+}
+
+button {
+  display: block;
+  margin: 15px auto;
+  padding: 20px 40px;
+  font-size: 24px;
+  background-color: #000000;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: black;
+}
+
+button:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+button.correct {
+  background-color: green;
+}
+
+button.incorrect {
+  background-color: red;
+}
+
+button.disabled {
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+
+.page-number {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-size: 16px;
+  color: #6c757d;
+}
+
+.btn-cool {
+  background-color: #ff4c4c;
+  border-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 50px;
+  padding: 10px 20px;
+  border: 2px solid #000;
+}
+
+.btn-cool-2 {
+  background-color: #ff4c4c;
+  border-color: #000;
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+  padding: 10px 20px;
+  border: 2px solid #000;
+}
+
+.btn-cool:hover {
+  background-color: #ff3333;
+  border-color: #000;
+  color: #fff;
+  text-decoration: none;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.decider {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXBwLmNzcyIsIm1hcHBpbmdzIjoiOzs7QUFHQTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7QUFGSjs7QUFLQTtFQUNJO0VBQ0E7RUFDQSxjQWRZO0FBWWhCOztBQUtBO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FBRko7O0FBS0E7RUFDSTtFQUNBLGNBNUJZO0FBMEJoQjs7QUFLQTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0EseUJBcENZO0VBcUNaO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7QUFGSjtBQUlJO0VBQ0k7QUFGUjs7QUFNQTtFQUNJO0FBSEo7O0FBTUE7RUFDSTtBQUhKOztBQU1BO0VBQ0k7QUFISjs7QUFNQTtFQUNJLHlCQTVEYztFQTZEZDtBQUhKOztBQU1BO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQSxjQXJFYztBQWtFbEI7O0FBTUE7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtBQUhKOztBQUtBO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7QUFGSjs7QUFJQTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0FBREo7O0FBSUE7RUFDSTtFQUNBO0FBREo7O0FBR0E7RUFDSTtFQUNBO0VBQ0E7QUFBSixDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vLy4vYXNzZXRzL3N0eWxlcy9hcHAuc2NzcyJdLCJzb3VyY2VzQ29udGVudCI6WyIkcHJpbWFyeS1jb2xvcjogIzAwMDAwMDtcbiRzZWNvbmRhcnktY29sb3I6ICM2Yzc1N2Q7XG5cbi5jb250YWluZXIge1xuICAgIG1heC13aWR0aDogNjAwcHg7XG4gICAgbWFyZ2luOiAwIGF1dG87XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIHBhZGRpbmc6IDIwcHg7XG4gICAgcG9zaXRpb246IHJlbGF0aXZlOyAvKiBBZGRlZCBwb3NpdGlvbiByZWxhdGl2ZSBmb3IgcHJvcGVyIHBvc2l0aW9uaW5nICovXG59XG5cbmgxIHtcbiAgICBmb250LXNpemU6IDM2cHg7XG4gICAgbWFyZ2luLWJvdHRvbTogMjBweDtcbiAgICBjb2xvcjogJHByaW1hcnktY29sb3I7XG59XG5cbi5xdWVzdGlvbiB7XG4gICAgbWFyZ2luLWJvdHRvbTogNDBweDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjYWZiMWIyO1xuICAgIHBhZGRpbmc6IDEwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgIGJvcmRlci1zdHlsZTogc29saWQ7XG4gICAgYm9yZGVyLWNvbG9yOiBibGFjaztcbn1cblxuLmdhcCB7XG4gICAgZm9udC1zaXplOiAzMHB4O1xuICAgIGNvbG9yOiAkcHJpbWFyeS1jb2xvcjtcbn1cblxuYnV0dG9uIHtcbiAgICBkaXNwbGF5OiBibG9jaztcbiAgICBtYXJnaW46IDE1cHggYXV0bztcbiAgICBwYWRkaW5nOiAyMHB4IDQwcHg7XG4gICAgZm9udC1zaXplOiAyNHB4O1xuICAgIGJhY2tncm91bmQtY29sb3I6ICRwcmltYXJ5LWNvbG9yO1xuICAgIGNvbG9yOiAjZmZmO1xuICAgIGJvcmRlcjogbm9uZTtcbiAgICBib3JkZXItcmFkaXVzOiA0cHg7XG4gICAgY3Vyc29yOiBwb2ludGVyO1xuICAgIHRyYW5zaXRpb246IGJhY2tncm91bmQtY29sb3IgMC4zcyBlYXNlO1xuXG4gICAgJjpob3ZlciB7XG4gICAgICAgIGJhY2tncm91bmQtY29sb3I6IGRhcmtlbigkcHJpbWFyeS1jb2xvciwgMTAlKTtcbiAgICB9XG59XG5cbmJ1dHRvbjpub3QoOmxhc3QtY2hpbGQpIHtcbiAgICBtYXJnaW4tYm90dG9tOiAxNXB4O1xufVxuXG5idXR0b24uY29ycmVjdCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogZ3JlZW47XG59XG5cbmJ1dHRvbi5pbmNvcnJlY3Qge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHJlZDtcbn1cblxuYnV0dG9uLmRpc2FibGVkIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAkc2Vjb25kYXJ5LWNvbG9yO1xuICAgIGN1cnNvcjogbm90LWFsbG93ZWQ7XG59XG5cbi5wYWdlLW51bWJlciB7XG4gICAgcG9zaXRpb246IGFic29sdXRlO1xuICAgIGJvdHRvbTogMTBweDtcbiAgICByaWdodDogMTBweDtcbiAgICBmb250LXNpemU6IDE2cHg7XG4gICAgY29sb3I6ICRzZWNvbmRhcnktY29sb3I7XG59XG5cbi5idG4tY29vbCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmNGM0YztcbiAgICBib3JkZXItY29sb3I6ICMwMDA7XG4gICAgY29sb3I6ICNmZmY7XG4gICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgIGZvbnQtc2l6ZTogNTBweDtcbiAgICBwYWRkaW5nOiAxMHB4IDIwcHg7XG4gICAgYm9yZGVyOiAycHggc29saWQgIzAwMDtcbn1cbi5idG4tY29vbC0ye1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZjRjNGM7XG4gICAgYm9yZGVyLWNvbG9yOiAjMDAwO1xuICAgIGNvbG9yOiAjZmZmO1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICBmb250LXNpemU6IDMwcHg7XG4gICAgcGFkZGluZzogMTBweCAyMHB4O1xuICAgIGJvcmRlcjogMnB4IHNvbGlkICMwMDA7XG59XG4uYnRuLWNvb2w6aG92ZXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZjMzMzM7XG4gICAgYm9yZGVyLWNvbG9yOiAjMDAwO1xuICAgIGNvbG9yOiAjZmZmO1xuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbn1cblxuLmJ1dHRvbi1jb250YWluZXJ7XG4gICAgZGlzcGxheTogZmxleDtcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xufVxuLmRlY2lkZXJ7XG4gICAgbWFyZ2luLWJvdHRvbTogMTBweDtcbiAgICBtYXJnaW4tdG9wOiAxMHB4O1xuICAgIGZvbnQtc2l6ZTogMzBweDtcblxufSJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==*/

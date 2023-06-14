@@ -1,0 +1,14 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}BBDW-Quiz{% endblock %}
+
+{% block body %}
+    <div class="container">
+        <h1>Wie gut kennst du die beste Band der Welt Besserwisserboy?</h1>
+        <div class="button-container">
+        <a class="btn btn-primary btn-lg btn-cool" href="{{ path('app_quiz_song_search') }}">Normal Mode</a>
+            <div class="decider"> oder doch <span>(mit allen Songs und Alben)</span></div>
+        <a class="btn btn-primary btn-lg btn-cool" href="{{ path('app_quiz_expert_song_search') }}">Expert Mode</a>
+        </div>
+    </div>
+{% endblock %}

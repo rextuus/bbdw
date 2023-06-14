@@ -1,0 +1,25 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}BBDW-Quiz{% endblock %}
+
+{% block body %}
+
+    <div class="container">
+        <h1>Welchen Song suchen wir?</h1>
+        <div class="question">
+            <p class="gap">{{text}}</p>
+        </div>
+        <div class="answers">
+            {{ form_start(form) }}
+            {{ form_row(form.correctAnswer, {'value': gapQuiz}) }} {# Add this line to include the hidden field #}
+            {{ form_row(form.correctAnswerText, {'value': correctAnswerText}) }} {# Add this line to include the hidden field #}
+            {% for field in form %}
+                {% if field.vars.name != 'correctAnswer' and field.vars.name != 'correctAnswerText' %} {# Exclude the hidden field from displaying again #}
+                    {{ form_row(field) }}
+                {% endif %}
+            {% endfor %}
+            {{ form_end(form) }}
+        </div>
+        <div class="page-number">Frage 1/3</div>
+    </div>
+{% endblock %}
